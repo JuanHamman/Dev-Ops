@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace MovieApp
 {
@@ -13,7 +8,7 @@ namespace MovieApp
         {
             InitializeComponent();
 
-            MainPage = new MovieApp.MainPage();
+            MainPage = new NavigationPage(new MoviesPage());
         }
 
         protected override void OnStart()
