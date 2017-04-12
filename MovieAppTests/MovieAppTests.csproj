@@ -61,5 +61,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MovieApp\MovieApp.Android\MovieApp.Android.csproj">
+      <Project>{7cc61e72-bacd-4a2c-83d8-b7d48677b113}</Project>
+      <Name>MovieApp.Android</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
